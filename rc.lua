@@ -45,6 +45,7 @@ beautiful.init("~/.config/awesome/themes/sky/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "x-terminal-emulator"
+togglesound = "amixer sset Master toggle"
 editor = os.getenv("vim") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -101,6 +102,7 @@ myawesomemenu = {
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "Debian", debian.menu.Debian_menu.Debian },
+                                    { "Sound on/off", togglesound },
                                     { "open terminal", terminal }
                                   }
                         })
