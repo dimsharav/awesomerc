@@ -388,6 +388,8 @@ awful.rules.rules = {
       properties = { tag = tags[1][4] } },
     { rule = { class = "telegram" },
       properties = { tag = tags[1][5] } },
+    { rule = { class = "Pcmanfm" },
+      properties = { tag = tags[1][7] } },
     { rule = { class = "Thunar" },
       properties = { tag = tags[1][7] } },
     { rule = { class = "VirtualBox" },
