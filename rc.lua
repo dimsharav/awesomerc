@@ -386,12 +386,12 @@ awful.rules.rules = {
       properties = { tag = tags[1][1] } },
     { rule = { class = "Firefox" },
       properties = { tag = tags[1][4] } },
-    { rule = { class = "Telegram" },
+    { rule = { class = "telegram" },
       properties = { tag = tags[1][5] } },
     { rule = { class = "Thunar" },
       properties = { tag = tags[1][7] } },
     { rule = { class = "VirtualBox" },
-      properties = { tag = tags[1][9] } },
+      properties = { tag = tags[1][9], switchtotag = true } },
 }
 -- }}}
 
