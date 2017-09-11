@@ -44,7 +44,7 @@ end
 beautiful.init("~/.config/awesome/themes/sky/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "xfce4-terminal"
+terminal = "gnome-terminal"
 togglesound = "amixer sset Master toggle"
 editor = os.getenv("vim") or "vim"
 editor_cmd = terminal .. " -e " .. editor
